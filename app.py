@@ -24,7 +24,7 @@ def draw_histogram():
     random_data_array = 333 + 11 * np.random.randn(count_of_point)
     plt.hist(random_data_array, input.selected_number_of_bins(), density=True, color="black")
         
-@render.plot(alt="My First Random Scatterplot")
+@render.plot(alt="Project 1: Scatterplot")
 def scatterplot():
     count_of_point: int = 666
     np.random.seed(333)
